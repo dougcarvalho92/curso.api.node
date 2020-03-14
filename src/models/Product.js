@@ -22,4 +22,4 @@ const ProductSchema = new mongoose.Schema({
 });
 
 ProductSchema.plugin(mongoosePaginate);
-mongoose.model("curso_react_db", ProductSchema);
+mongoose.model("Product", ProductSchema);
